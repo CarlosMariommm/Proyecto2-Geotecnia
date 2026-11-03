@@ -1,4 +1,46 @@
+
+# =========================
+# EXISTING PROJECT RULES
+# =========================
 referencias/
 prompt_para_code.txt
 node_modules/
+
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
 .env
+.env.*
+!.env.example
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# DJANGO
+# =========================
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OPERATING SYSTEM
+# =========================
+.DS_Store
+Thumbs.db
