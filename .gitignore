@@ -53,3 +53,13 @@ backend/migracion/informes/
 backend/migracion/correcciones*.yaml
 # Lectura de hojas: lecturas simuladas (las fotos ya quedan fuera por media/)
 backend/lectura/simulado/
+
+# =========================
+# DOCUMENTOS LOCALES (no van a GitHub)
+# =========================
+CONTEXTO_PROYECTO.md
+CONTEXTO_SESION.md
+PLAN_MIGRACION.md
+Cronograma_Proyecto2.xlsx
+# Copias comprimidas de las referencias: datos de clientes
+referencias*.zip
