@@ -44,3 +44,12 @@ staticfiles/
 # =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# DATOS DE CLIENTES
+# =========================
+# Migración: informes y correcciones pueden tener datos personales o de clientes
+backend/migracion/informes/
+backend/migracion/correcciones*.yaml
+# Lectura de hojas: lecturas simuladas (las fotos ya quedan fuera por media/)
+backend/lectura/simulado/
